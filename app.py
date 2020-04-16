@@ -4,15 +4,17 @@ from flask import Flask, request, redirect, url_for, flash
 from werkzeug.utils import secure_filename
 import tensorflow as tf
 from keras.models import Sequential, load_model
+'''
 from keras.layers import Conv2D, MaxPool2D
 from keras.layers import Activation, Dropout, Flatten, Dense
 from keras.utils import np_utils
 import numpy as np
 import keras
+import sys
+'''
+
 from PIL import Image
 import numpy as np
-import sys
-
 
 UPLOAD_FOLDER = './uploads'
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'gif'])
